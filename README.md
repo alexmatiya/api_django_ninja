@@ -14,11 +14,12 @@ python3 manage.py runserver
 - После запуска, вам на главную или сюда:
 ```
 http://localhost:8000/api/docs
-
+```
 или сюда
 ```
 http://localhost:8000/admin
 ```
 
-- p.s.: в зависимостях есть интересная библиотека ``django_extensions``, советую почитать про нее. Запустите ``python manage.py shell_plus --print-sql``
+- p.s.: в зависимостях есть интересная библиотека ``django_extensions``, советую почитать про нее.
+Запустите ``python manage.py shell_plus --print-sql``
 и дерните что-то из базы, посмотрите, какая красота в терминале :)
